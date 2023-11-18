@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.3.0](https://github.com/stevearc/conform.nvim/compare/v4.2.0...v4.3.0) (2023-11-18)
+
+
+### Features
+
+* add `auto-optional` ([#196](https://github.com/stevearc/conform.nvim/issues/196)) ([9156364](https://github.com/stevearc/conform.nvim/commit/9156364c23cff19734a0055377321c22b1484c0f))
+* add cbfmt ([#198](https://github.com/stevearc/conform.nvim/issues/198)) ([aa36bc0](https://github.com/stevearc/conform.nvim/commit/aa36bc05563d5390a2ef67956d72560048acdc2e))
+* add packer formatter ([#202](https://github.com/stevearc/conform.nvim/issues/202)) ([a0cabaa](https://github.com/stevearc/conform.nvim/commit/a0cabaaf5c94137c8dc34043244a34b552860af6))
+* add pangu ([#188](https://github.com/stevearc/conform.nvim/issues/188)) ([f0780e2](https://github.com/stevearc/conform.nvim/commit/f0780e2231df2e4751e31db32c1545872412ba75))
+* add phpinsights ([#170](https://github.com/stevearc/conform.nvim/issues/170)) ([5235405](https://github.com/stevearc/conform.nvim/commit/5235405cc6d4ac98dc9008ffa850038e3325bbce))
+* add styler formatter for R ([#184](https://github.com/stevearc/conform.nvim/issues/184)) ([6afc64e](https://github.com/stevearc/conform.nvim/commit/6afc64e9f36cbae35c2a8b6852d0b91c9807a72a))
+
+
+### Bug Fixes
+
+* injected formatter adds language to file extension ([#199](https://github.com/stevearc/conform.nvim/issues/199)) ([e2b889e](https://github.com/stevearc/conform.nvim/commit/e2b889e26586acf30dda7b4a5c3f1a063bc18f18))
+* injected parser shouldn't format combined injections ([#205](https://github.com/stevearc/conform.nvim/issues/205)) ([eeef888](https://github.com/stevearc/conform.nvim/commit/eeef88849fb644d84a5856524adf10d0ad2d7cbe))
+* range format method for async formatters and injected ([a36c68d](https://github.com/stevearc/conform.nvim/commit/a36c68d2cd551e49883ddb2492c178d915567f58))
+* show more logs in ConformInfo when log level is TRACE ([0963118](https://github.com/stevearc/conform.nvim/commit/0963118e60e0895e2e4842aeffc67cdf9e2bcd10))
+
 ## [4.2.0](https://github.com/stevearc/conform.nvim/compare/v4.1.0...v4.2.0) (2023-11-09)
 
 
